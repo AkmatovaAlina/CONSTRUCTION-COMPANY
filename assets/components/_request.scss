@@ -1,0 +1,56 @@
+.request {
+    background-color: $orang;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.request__flex {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.request__flex-left {
+    color: $white;
+}
+.request__h4 {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    margin-bottom: 7px;
+}
+.request__h5 {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+}
+
+.request__btn {
+    border: none;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald' sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5em;
+    padding: 14px 30px;
+}
+.request__icon {
+    margin-right: 25px;
+}
+@media screen and (max-width:1289px) {
+    .request{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    }
+    @media screen and (max-width:768px) {
+    .request__flex{
+        flex-wrap: wrap;
+    }
+     }
